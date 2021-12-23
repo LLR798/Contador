@@ -1,0 +1,78 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+/* RESET */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+  background-color: hsl(0, 1%, 86%);
+}
+
+h1, p {
+  color: hsl(0, 0%, 10%);
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.info {
+  background-color: hsl(0, 5%, 84%);
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  display: flex;
+}
+
+#currentNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 16pt;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 10%);
+  background-color: rgb(202, 196, 196);
+  color: hsl(0, 0%, 10%);
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+#btnSubt:hover {
+  cursor: pointer;
+  border: 2px solid hsl(1, 73%, 45%);
+  background-color: hsl(5, 79%, 95%);
+  color: hsl(1, 73%, 45%);
+  transition: 0.5s;
+}
+
+#btnSoma:hover {
+  cursor: pointer;
+  border: 2px solid hsl(140, 72%, 26%);
+  background-color: hsl(137, 39%, 93%);
+  color: hsl(140, 72%, 26%);
+  transition: 0.5s;
+}
+
+
+
